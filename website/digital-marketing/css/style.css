@@ -769,6 +769,7 @@ svg.right-square {
 .large-logo {
     position: absolute;
     z-index: 9;
+    float: right;
     width: 75%;
     left: 40%;
     top: 25%
@@ -809,9 +810,9 @@ svg.right-square {
 .card-body .card-text {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    letter-spacing: -1px;
-    line-height: 1.3;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
 }
 
 .card .card-body {
@@ -821,9 +822,9 @@ svg.right-square {
 .card {
     border: none;
     cursor: pointer;
-    -webkit-transition: 0.8s ease;
-    -o-transition: 0.8s ease;
-    transition: 0.8s ease;
+    -webkit-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
     -webkit-box-shadow: 2px 2px 10px #e1e1e1;
     box-shadow: 2px 2px 10px #e1e1e1;
 }
