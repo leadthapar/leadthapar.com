@@ -726,6 +726,7 @@ svg.left-square {
     height: 177%;
     top: -117px;
     bottom: 0;
+    z-index: -9999;
 }
 
 /*svg.yellow-square {*/
@@ -751,6 +752,7 @@ svg.yellow-square {
     height: 335%;
     top: -340px;
     bottom: 0;
+    z-index: 0;
 }
 
 svg.right-square {
@@ -759,6 +761,7 @@ svg.right-square {
     height: 150%;
     top: -83px;
     bottom: 0;
+    z-index: -9999;
 }
 
 .feature {
@@ -1963,6 +1966,7 @@ span {
         right: 0;
         height: 558%;
         top: -876px;
+        z-index: -9999;
     }
     svg.left-square {
         position: absolute;
