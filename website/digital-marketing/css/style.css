@@ -769,6 +769,7 @@ svg.right-square {
 .large-logo {
     position: absolute;
     z-index: 9;
+    float: right;
     width: 75%;
     left: 40%;
     top: 25%

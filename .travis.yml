@@ -1,9 +1,18 @@
 language: node_js
 node_js:
   - "8"
+
+branches:
+  only:
+    - main
+    - dev
+
 script:
- - echo "Deploying!!"
+ - echo "Initializing Firebase Web Hosting Deployement!"
+
 install:
   - npm install -g firebase-tools
+
 after_success:
+  - firebase target:apply hosting leadthapar-web $DEPLOY_TARGET
   - firebase deploy --project leadthapar-web --token $FIREBASE_TOKEN
