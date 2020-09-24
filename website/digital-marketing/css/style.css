@@ -800,7 +800,7 @@ svg.right-square {
 .feature-icon {
     font-size: 120px;
     -webkit-transform: translateY(-30%);
-    color: #da0808;
+    color: #0cc9bf;
     -webkit-transition: 0.5s ease;
     -o-transition: 0.5s ease;
     transition: 0.5s ease;
@@ -813,10 +813,10 @@ svg.right-square {
 .card-body .card-text {
     font-size: 23px;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
     letter-spacing: 0.0001px;
     line-height: 1.1;
-    text-shadow: rgba(145, 145, 145, 0.55) 1px -1px 3px;
+    /* text-shadow: rgba(145, 145, 145, 0.55) 1px -1px 3px; */
 }
 
 .card .card-body {
