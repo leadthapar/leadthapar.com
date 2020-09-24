@@ -27,42 +27,49 @@
     <link rel="stylesheet" href="digital-marketing/css/style.css">
     <style>
     .externalheading {
-        font-family: Verdana; 
+        position: relative;
+        font-family: Verdana;
         color: #020405;
         text-shadow: rgba(136, 136, 136, 0.75) 3px 3px 7px;
-        
+        z-index: 1;
+
     }
     .capitals {
-        font-size: 60px; 
+        position: relative;
+        font-size: 60px;
         color: rgb(40, 50, 78);
-         text-shadow: rgba(136, 136, 136, 0.75) 3px 3px 5px; 
+         text-shadow: rgba(136, 136, 136, 0.75) 3px 3px 5px;
          font-family: Verdana;
+         z-index: 1;
 
     }
     .smalls {
-        color: rgb(40, 50, 78); 
+        position: relative;
+        color: rgb(40, 50, 78);
         font-size: 30px;
-        text-shadow: rgba(136, 136, 136, 0.75) 3px 3px 5px; 
+        text-shadow: rgba(136, 136, 136, 0.75) 3px 3px 5px;
         font-family: Verdana;
+        z-index: 1;
     }
     .pipestyles {
-        color: rgb(40, 50, 78); 
+        position: relative;
+        color: rgb(40, 50, 78);
         font-size: 36px;
-        text-shadow: rgba(136, 136, 136, 0.75) 3px 3px 5px; 
+        text-shadow: rgba(136, 136, 136, 0.75) 3px 3px 5px;
         font-family: Verdana;
+        z-index: 1;
     }
     .subheadings1 {
-        color: rgb(184, 49, 47); 
-        font-size: 70px; 
-        text-shadow: -3px 3px 8px rgba(136, 136, 136, 0.75);
+        color: rgb(184, 49, 47);
+        font-size: 70px;
+        /* text-shadow: -3px 3px 8px rgba(136, 136, 136, 0.75); */
     }
     .subheadings2 {
-       font-size: 35px; 
-       color: rgb(85, 57, 130); 
-       text-shadow: rgba(136, 136, 136, 0.75) 0px 1px 11px;
+       font-size: 35px;
+       color: rgb(85, 57, 130);
+       /* text-shadow: rgba(136, 136, 136, 0.75) 0px 1px 11px; */
     }
     </style>
-    
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="150">
@@ -148,7 +155,9 @@
                             <a class="nav-link" href="#feature">AboutUs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#gallery">Events</a>
+                            <a class="nav-link scroll" href="#gallery">Events</a>
+
+
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#testimonial">OurSponsors</a>
@@ -187,10 +196,10 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="large-logo"></div>   
+                    <div class="large-logo"></div>
                     <img style="padding-left: 200px; padding-bottom: 20px;" src="digital-marketing/img/logo-large.png" alt="img">
                     </div>
-               
+
 
                     <div class="plant1">
                         <div class="large-icon plant-home">
@@ -222,9 +231,10 @@
                     <div class="text">
                         <div class="home-text text-black">
                             <div class="subheadings1"><h1 class="main-heading mb-4" >About Us</h1 ></div>
-                            
+                            <div class="aboutustext">
                             <p class="sub-heading mb-4" style="text-align: center;" ><span style="font-size: 20px;">LEAD was formed with the objective of providing students a dynamic platform which feeds their curiosity and develops their technical skills. LEAD aims to create a community of versatile enthusiasts with progressive mindset, promoting development holistically which includes injecting soft skills as well.</span></p> <br>
-                            <p class="sub-heading mb-4" style="text-align: center;" ><span style="font-size: 20px;">LEAD effectuates it by organizing numerous technologies driven events including tech meetups and Hackathons and promoting team building.</span></p>
+                            <p class="sub-heading mb-4" style="text-align: center;" ><span style="font-size: 20px;">LEAD effectuates it by organizing numerous technologies driven events including tech meetups and Hackathons and promoting team building.</span></p></div>
+
                             <a href="#" class="btn btn-slider pink-btn rounded-pill">Learn More</a>
                         </div>
                     </div>
@@ -232,12 +242,12 @@
             </div>
             <br>
             <div class="subheadings2"><h1 ><strong>We can help you with:</strong> </h1></div>
-          
+
             <div class="row mt-90">
                 <div class="col-12 col-md-4 mb-3 mb-md-0">
                     <div class="card box text-center">
                         <div class="feature-icon text-center">
-                            <i class="far fa-lightbulb"></i>
+                            <i class="fas fa-edit"></i>
                         </div>
                         <div class="card-body">
                             <p class="card-text sub-heading text-black">Content Writing and Marketing</p>
@@ -248,7 +258,7 @@
                 <div class="col-12 col-md-4 mt-5 mt-md-0 mb-3 mb-md-0">
                     <div class="card box text-center">
                         <div class="feature-icon text-center center">
-                            <i class="far fa-copy"></i>
+                            <i class="fas fa-laptop-code"></i>
                         </div>
                         <div class="card-body">
                             <p class="card-text sub-heading text-black">Technical Fields like App and Web Development</p>
@@ -260,7 +270,7 @@
                 <div class="col-12 col-md-4 mt-5 mt-md-0">
                     <div class="card box text-center">
                         <div class="feature-icon text-center">
-                            <i class="far fa-heart"></i>
+                            <i class="fas fa-users"></i>
                         </div>
                         <div class="card-body">
                             <p class="card-text sub-heading text-black">Communication and Leadership Skills</p>
@@ -280,7 +290,7 @@
                         <div class="home-text text-black">
                             <h1 class="sub-heading">Let us show you some stats</h1>
                             <h1 class="main-heading mt-3 mb-4">We have done great stuff over the past few years.</h1>
-                            <p class="sub-heading mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut aliqua
+                            <p class="sub-heading mb-3">A society where you explore the world
                             </p>
                         </div>
                     </div>
@@ -288,7 +298,7 @@
                 <div class="col-2">
                     <div class="plant-img">
                         <div class="plant">
-                            <img src="digital-marketing/img/plant.jpg" alt="img">
+                            <img src="digital-marketing/img/logo-large2.png" alt="img">
                         </div>
                     </div>
                 </div>
@@ -304,7 +314,7 @@
                                 </div>
                                 <div class="stats-box-text ml-4">
                                     <h1 class="numbering">500+</h1>
-                                    <p class="sub-heading">Happy Clients</p>
+                                    <p class="sub-heading">Happy Participants</p>
                                 </div>
                             </div>
                         </div>
@@ -327,7 +337,7 @@
                                     <i class="fas fa-check"></i>
                                 </div>
                                 <div class="stats-box-text ml-4">
-                                    <h1 class="numbering">200+</h1>
+                                    <h1 class="numbering">50+</h1>
                                     <p class="sub-heading">Project Completed</p>
                                 </div>
                             </div>
@@ -348,8 +358,8 @@
             <div class="row">
                 <div class="col-12 col-md-8 col-lg-6">
                     <div class="team-text text-black">
-                        <h1 class="main-heading mb-3">Our Creative Team</h1>
-                        <p class="sub-heading mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut aliqua
+                        <h1 class="main-heading mb-3">Our Mentors</h1>
+                        <p class="sub-heading mb-4">Coming together is a beginning Keeping together is progress Working together is success.
                         </p>
                     </div>
                 </div>
@@ -360,36 +370,240 @@
 
                     <div id="team-carousal" class="owl-carousel owl-theme team-owl mt-100 text-center">
                         <div class="item">
-                            <div class="team-img">
-                                <img src="digital-marketing/img/team1.jpg" alt="img">
+                            <div class="team-img mt-20">
+                                <img src="digital-marketing/img/jayati_gumber.png" alt="img">
                             </div>
                             <div class="team-tittle text-left mt-3 mb-3">
                                 <div class="name-img">
                                     <img src="digital-marketing/img/shape-team.png" alt="img">
-                                    <h3 class="name mb-0">Alex Stoke</h3>
+                                    <h3 class="name mb-0">Jayati Gumber</h3>
                                 </div>
-                                <p class="sub-heading mb-0 mt-1 text-center text-black">Director</p>
+                                <p class="sub-heading mb-0 mt-1 text-center text-black">General Secretary</p>
                                 <div class="social-icons text-center">
                                     <a href="#"><i class="fab fa-facebook-f fb"></i></a>
-                                    <a href="#"><i class="fab fa-twitter twt"></i></a>
-                                    <a href="#"><i class="fab fa-dribbble drb"></i></a>
+                                    <a href="http://linkedin.com/in/jayati-gumber"><i class="fab fa-linkedin-in twt"></i></a>
+                                    <a href="https://www.instagram.com/jayati_gumber/"><i class="fab fa-instagram drb"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
                             <div class="team-img mt-20">
-                                <img src="digital-marketing/img/team2.jpg" alt="img">
+                                <img src="digital-marketing/img/utkarsh_mishra.png" alt="img">
                             </div>
                             <div class="team-tittle text-left mt-3 mb-3">
                                 <div class="name-img">
                                     <img src="digital-marketing/img/shape-team.png" alt="img">
-                                    <h3 class="name mb-0">Lisa Waren</h3>
+                                    <h3 class="name mb-0">Utkarsh Mishra</h3>
                                 </div>
-                                <p class="sub-heading mb-0 mt-1 text-center text-black">Director</p>
+                                <p class="sub-heading mb-0 mt-1 text-center text-black">General Secretary</p>
                                 <div class="social-icons text-center">
                                     <a href="#"><i class="fab fa-facebook-f fb"></i></a>
-                                    <a href="#"><i class="fab fa-twitter twt"></i></a>
-                                    <a href="#"><i class="fab fa-dribbble drb"></i></a>
+                                    <a href="https://www.linkedin.com/in/utkarsh-mishra-13b540172/"><i class="fab fa-linkedin-in twt"></i></a>
+                                    <a href="https://www.instagram.com/utkarsh1414/"><i class="fab fa-instagram drb"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="team-img mt-20">
+                                <img src="digital-marketing/img/vishu_chauhan.png" alt="img">
+                            </div>
+                            <div class="team-tittle text-left mt-3 mb-3">
+                                <div class="name-img">
+                                    <img src="digital-marketing/img/shape-team.png" alt="img">
+                                    <h3 class="name mb-0">Vishu Chauhan</h3>
+                                </div>
+                                <p class="sub-heading mb-0 mt-1 text-center text-black">Joint Secretary</p>
+                                <div class="social-icons text-center">
+                                    <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                                    <a href="https://www.linkedin.com/in/vishu-chauhan-a5a3301a8"><i class="fab fa-linkedin-in twt"></i></a>
+                                    <a href="https://www.instagram.com/vishuchauhan05/"><i class="fab fa-instagram drb"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="team-img mt-20">
+                                <img src="digital-marketing/img/shivu_chauhan.png" alt="img">
+                            </div>
+                            <div class="team-tittle text-left mt-3 mb-3">
+                                <div class="name-img">
+                                    <img src="digital-marketing/img/shape-team.png" alt="img">
+                                    <h3 class="name mb-0">Shivu Chauhan</h3>
+                                </div>
+                                <p class="sub-heading mb-0 mt-1 text-center text-black">Joint Secretary</p>
+                                <div class="social-icons text-center">
+                                    <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                                    <a href="https://www.linkedin.com/in/shivu-chauhan-344721172"><i class="fab fa-linkedin-in twt"></i></a>
+                                    <a href="https://www.instagram.com/hard_wired_shivu/"><i class="fab fa-instagram drb"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="team-img mt-20">
+                                <img src="digital-marketing/img/ananya_tiwari.png" alt="img">
+                            </div>
+                            <div class="team-tittle text-left mt-3 mb-3">
+                                <div class="name-img">
+                                    <img src="digital-marketing/img/shape-team.png" alt="img">
+                                    <h3 class="name mb-0">Ananya Tiwari</h3>
+                                </div>
+                                <p class="sub-heading mb-0 mt-1 text-center text-black">Joint Secretary</p>
+                                <div class="social-icons text-center">
+                                    <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                                    <a href="https://www.linkedin.com/in/ananya-tiwari-989b541b1"><i class="fab fa-linkedin-in twt"></i></a>
+                                    <a href="https://instagram.com/tiwari_ananya2"><i class="fab fa-instagram drb"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="team-img mt-20">
+                                <img src="digital-marketing/img/shaurya_khanna.png" alt="img">
+                            </div>
+                            <div class="team-tittle text-left mt-3 mb-3">
+                                <div class="name-img">
+                                    <img src="digital-marketing/img/shape-team.png" alt="img">
+                                    <h3 class="name mb-0">Shaurya Khannna</h3>
+                                </div>
+                                <p class="sub-heading mb-0 mt-1 text-center text-black">Joint Secretary</p>
+                                <div class="social-icons text-center">
+                                    <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                                    <a href="https://www.linkedin.com/in/shaurya-khanna-4a3778171"><i class="fab fa-linkedin-in twt"></i></a>
+                                   <a href="https://instagram.com/khannashaurya"><i class="fab fa-instagram drb"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="team-img mt-20">
+                                <img src="digital-marketing/img/lovendra_gupta.png" alt="img">
+                            </div>
+                            <div class="team-tittle text-left mt-3 mb-3">
+                                <div class="name-img">
+                                    <img src="digital-marketing/img/shape-team.png" alt="img">
+                                    <h3 class="name mb-0">Lovendra Gupta</h3>
+                                </div>
+                                <p class="sub-heading mb-0 mt-1 text-center text-black">Finance Secretary</p>
+                                <div class="social-icons text-center">
+                                    <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                                    <a href="https://www.linkedin.com/in/lovendra-gupta-63b03a16b"><i class="fab fa-linkedin-in twt"></i></a>
+                                    <a href="https://instagram.com/lovendra_gupta07"><i class="fab fa-instagram drb"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="team-img mt-20">
+                                <img src="digital-marketing/img/gaurish_garg.png" alt="img">
+                            </div>
+                            <div class="team-tittle text-left mt-3 mb-3">
+                                <div class="name-img">
+                                    <img src="digital-marketing/img/shape-team.png" alt="img">
+                                    <h3 class="name mb-0">Gaurish Garg</h3>
+                                </div>
+                                <p class="sub-heading mb-0 mt-1 text-center text-black">Designing Head</p>
+                                <div class="social-icons text-center">
+                                    <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                                    <a href="https://www.linkedin.com/in/gaurish-garg-84b1621b7"><i class="fab fa-linkedin-in twt"></i></a>
+                                    <a href="https://instagram.com/garggaurish"><i class="fab fa-instagram drb"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="team-img mt-20">
+                                <img src="digital-marketing/img/hitesh_miglani.png" alt="img">
+                            </div>
+                            <div class="team-tittle text-left mt-3 mb-3">
+                                <div class="name-img">
+                                    <img src="digital-marketing/img/shape-team.png" alt="img">
+                                    <h3 class="name mb-0">Hitesh Miglani</h3>
+                                </div>
+                                <p class="sub-heading mb-0 mt-1 text-center text-black">Video Designing Head</p>
+                                <div class="social-icons text-center">
+                                    <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                                    <a href="https://www.linkedin.com/in/hitesh-miglani-56b10a16a"><i class="fab fa-linkedin-in twt"></i></a>
+                                    <a href="https://instagram.com/hitesh_miglani_"><i class="fab fa-instagram drb"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="team-img mt-20">
+                                <img src="digital-marketing/img/shivam_goyal.png" alt="img">
+                            </div>
+                            <div class="team-tittle text-left mt-3 mb-3">
+                                <div class="name-img">
+                                    <img src="digital-marketing/img/shape-team.png" alt="img">
+                                    <h3 class="name mb-0">Shivam Goyal</h3>
+                                </div>
+                                <p class="sub-heading mb-0 mt-1 text-center text-black">Technical Head</p>
+                                <div class="social-icons text-center">
+                                    <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                                    <a href="https://linkedin.com/in/shivamgoyal1899"><i class="fab fa-linkedin-in twt"></i></a>
+                                    <a href="https://instagram.com/shivam.dev"><i class="fab fa-instagram drb"></i></a>
+                                </div>
+                            </div>
+                        </div>   
+                        <div class="item">
+                            <div class="team-img mt-20">
+                                <img src="digital-marketing/img/Shivam_Pundir.png" alt="img">
+                            </div>
+                            <div class="team-tittle text-left mt-3 mb-3">
+                                <div class="name-img">
+                                    <img src="digital-marketing/img/shape-team.png" alt="img">
+                                    <h3 class="name mb-0">Shivam Pundir</h3>
+                                </div>
+                                <p class="sub-heading mb-0 mt-1 text-center text-black">Technical Head</p>
+                                <div class="social-icons text-center">
+                                    <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                                    <a href="https://www.linkedin.com/in/shivam-pundir-9b64bb87/"><i class="fab fa-linkedin-in twt"></i></a>
+                                    <a href="https://instagram.com/shivam.pundir.5688"><i class="fab fa-instagram drb"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="team-img mt-20">
+                                <img src="digital-marketing/img/shaurya_thakur.png" alt="img">
+                            </div>
+                            <div class="team-tittle text-left mt-3 mb-3">
+                                <div class="name-img">
+                                    <img src="digital-marketing/img/shape-team.png" alt="img">
+                                    <h3 class="name mb-0">Shaurya Thakur</h3>
+                                </div>
+                                <p class="sub-heading mb-0 mt-1 text-center text-black">Marketing Head</p>
+                                <div class="social-icons text-center">
+                                    <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                                    <a href="https://www.linkedin.com/in/shaurya-singh-thakur-2149351a7"><i class="fab fa-linkedin-in twt"></i></a>
+                                    <a href="https://www.instagram.com/shauryasinghthakur2408/"><i class="fab fa-instagram drb"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="team-img mt-20">
+                                <img src="digital-marketing/img/rajeev_singla.png" alt="img">
+                            </div>
+                            <div class="team-tittle text-left mt-3 mb-3">
+                                <div class="name-img">
+                                    <img src="digital-marketing/img/shape-team.png" alt="img">
+                                    <h3 class="name mb-0">Rajeev Singla</h3>
+                                </div>
+                                <p class="sub-heading mb-0 mt-1 text-center text-black">Publicity Head</p>
+                                <div class="social-icons text-center">
+                                    <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                                    <a href="https://www.linkedin.com/in/rajeev-singla-378a94153"><i class="fab fa-linkedin-in twt"></i></a>
+                                    <a href="https://www.instagram.com/rajeevsingla780/"><i class="fab fa-instagram drb"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="team-img mt-20">
+                                <img src="digital-marketing/img/bhawika_arora.png" alt="img">
+                            </div>
+                            <div class="team-tittle text-left mt-3 mb-3">
+                                <div class="name-img">
+                                    <img src="digital-marketing/img/shape-team.png" alt="img">
+                                    <h3 class="name mb-0">Bhawika Arora</h3>
+                                </div>
+                                <p class="sub-heading mb-0 mt-1 text-center text-black">Publicity Head</p>
+                                <div class="social-icons text-center">
+                                    <a href="#"><i class="fab fa-facebook-f fb"></i></a>
+                                    <a href="https://www.linkedin.com/in/bhawika-arora-76b198183"><i class="fab fa-linkedin-in twt"></i></a>
+                                    <a href="https://www.instagram.com/bhawika_rocks_/"><i class="fab fa-instagram drb"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -412,9 +626,9 @@
             <div class="stats-text pl-3 pl-md-5">
                 <div class="home-text text-black">
                     <h1 class="sub-heading">Let us make you happy with</h1>
-                    <h1 class="main-heading mt-3 mb-4"><span class="text-yellow">Robust Design</span> and Development Solutions</h1>
-                    <p class="sub-heading mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut aliq. Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    <a href="#" class="btn btn-main pink-btn rounded-pill mt-3">Start Now</a>
+                    <h1 class="main-heading mt-3 mb-4"><span class="text-yellow">Robust Technical</span> and Non-Technical Skills</h1>
+                    <p class="sub-heading mb-3">Over the years, LEAD Community has built a collosal & robust legacy of its own. This website aims to give you a deep insight on how this organization, full of talented & enthusiastic people manages to raise the bar every single time & grow exponentially with each & every event! But more importantly, you'll get to know that how it'll help YOU take your skills to the next level!✨</p>
+                    <a href="#" class="btn btn-main pink-btn rounded-pill mt-3">Start Your Journey Now</a>
                 </div>
             </div>
         </div>
@@ -435,71 +649,71 @@
                 <div class="row">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="300ms">
                         <div class="ex-detail">
-                            <h1 class="main-heading">Our<br> Amazing Work
+                            <h1 class="main-heading" style=" color: red; ">Events<br> held
                             </h1>
                         </div>
                     </div>
                     <div class="col-md-12 pt-5">
                         <div id="js-filters-mosaic" class="cbp-l-filters-button wow fadeInUp" data-wow-delay="350ms">
                             <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> ALL</div>
-                            <div data-filter=".web" class="cbp-filter-item">WEB DESIGN</div>
+                            <div data-filter=".cp" class="cbp-filter-item">COMPETITIVE PROGRAMMING</div>
                             <div data-filter=".logo" class="cbp-filter-item">LOGO DESIGN</div>
-                            <div data-filter=".mobile" class="cbp-filter-item">MOBILE APP</div>
-                            <div data-filter=".development" class="cbp-filter-item">DEVELOPMENT</div>
+                            <div data-filter=".ml" class="cbp-filter-item">ML</div>
+                            <div data-filter=".startup" class="cbp-filter-item">STARTUP</div>
                         </div>
 
                         <div id="js-grid-mosaic" class="cbp cbp-l-grid-mosaic">
-                            <div class="cbp-item web logo">
-                                <a href="digital-marketing/img/portfolio1.jpg" class="cbp-caption cbp-lightbox" data-title="Workout Buddy<br>by Tiberiu Neamu">
+                            <div class="cbp-item logo">
+                                <a href="digital-marketing/img/designing.jpeg" class="cbp-caption cbp-lightbox" data-title="Designing Workshop<br>by Gaurish Sir">
                                     <div class="cbp-caption-defaultWrap">
-                                        <img src="digital-marketing/img/portfolio1.jpg" alt="img">
+                                        <img src="digital-marketing/img/designing.jpeg" alt="Designing Workshop">
                                     </div>
                                     <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
                                         <div class="hover-text">
                                             <h4 class="p-hover-title">Logo Design</h4>
-                                            <p class="p-hover-des">35 WP Anniversary</p>
+                                            <p class="p-hover-des">Designing Workshop</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
 
-                            <div class="cbp-item mobile web">
-                                <a href="digital-marketing/img/portfolio3.jpg" class="cbp-caption cbp-lightbox" data-title="Workout Buddy<br>by Tiberiu Neamu">
+                            <div class="cbp-item cp">
+                                <a href="digital-marketing/img/ds-workshop.jpeg" class="cbp-caption cbp-lightbox" data-title="DS Workshop<br>by Aarnav Jindal">
                                     <div class="cbp-caption-defaultWrap">
-                                        <img src="digital-marketing/img/portfolio3.jpg" alt="img">
+                                        <img src="digital-marketing/img/ds-workshop.jpeg" alt="DS Workshop">
                                     </div>
                                     <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
                                         <div class="hover-text">
-                                            <h4 class="p-hover-title">Web Design</h4>
-                                            <p class="p-hover-des">35 WP Anniversary</p>
+                                            <h4 class="p-hover-title">DS in Real Life</h4>
+                                            <p class="p-hover-des">Competitive Programming</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
 
-                            <div class="cbp-item print logo development web mobile">
-                                <a href="digital-marketing/img/portfolio2.jpg" class="cbp-caption cbp-lightbox" data-title="Workout Buddy<br>by Tiberiu Neamu">
+                            <div class="cbp-item print ml">
+                                <a href="digital-marketing/img/ml-workshop.jpg" class="cbp-caption cbp-lightbox" data-title="ML Workshop<br>by Mohit Uniyal">
                                     <div class="cbp-caption-defaultWrap">
-                                        <img src="digital-marketing/img/portfolio2.jpg" alt="img">
+                                        <img src="digital-marketing/img/ml-workshop.jpg" alt="ML Workshop">
                                     </div>
                                     <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
                                         <div class="hover-text">
-                                            <h4 class="p-hover-title">Creative</h4>
-                                            <p class="p-hover-des">35 WP Anniversary</p>
+                                            <h4 class="p-hover-title">Lyrics Generator</h4>
+                                            <p class="p-hover-des">Machine Learning</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
 
-                            <div class="cbp-item logo development">
-                                <a href="digital-marketing/img/portfolio4.jpg" class="cbp-caption cbp-lightbox" data-title="Workout Buddy<br>by Tiberiu Neamu">
+                            <div class="cbp-item startup">
+                                <a href="digital-marketing/img/startup.jpeg" class="cbp-caption cbp-lightbox" data-title="Startup Mentoring<br>by Harsh Bajoria">
                                     <div class="cbp-caption-defaultWrap">
-                                        <img src="digital-marketing/img/portfolio4.jpg" alt="img">
+                                        <img src="digital-marketing/img/startup.jpeg" alt="Startup Business">
                                     </div>
                                     <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
                                         <div class="hover-text">
-                                            <h4 class="p-hover-title">Development</h4>
-                                            <p class="p-hover-des">35 WP Anniversary</p>
+                                            <h4 class="p-hover-title">Strategy Building</h4>
+                                            <p class="p-hover-des">Startup and Business</p>
                                         </div>
                                     </div>
                                 </a>
@@ -509,9 +723,10 @@
                         <div id="js-loadMore-lightbox-gallery" class="cbp-l-loadMore-button wow fadeInUp" data-wow-delay="650ms">
                             <div class="row portfolio-foot-detail">
                                 <div class="col-6 col-lg-3 offset-lg-6 text-left pl-4">
-                                    <span class="p-text">We've Completed More Then</span>
+                                    <br>
+                                    <!--<span class="p-text">More events coming soon...</span>
                                     <h4 class="p-num">530</h4>
-                                    <span class="p-text">Projects for Our amazing Clients</span>
+                                    <span class="p-text">Projects for Our amazing Clients</span> -->
                                 </div>
                                 <div class="col-6 col-lg-3  d-flex justify-content-end align-items-center">
                                     <a href="digital-marketing/standalone.html" class="btn btn-main yellow-btn rounded-pill mt-3">View All</a><span></span><span></span><span></span><span></span>
@@ -529,7 +744,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-8 col-lg-6">
+<<<<<<< HEAD
                     <h1 class="main-heading text-center text-black">Proud Sponsors</h1>
+=======
+                    <h1 class="main-heading text-center text-black">OurSponsors</h1>
+>>>>>>> b5dd24ae846f927ddec81e8023af7b7ea86e8a77
                     <div id="testimonial-carousal" class="owl-carousel owl-theme testimonial-owl pt-5 pb-5 text-center">
 
                         <div class="item">
@@ -538,10 +757,17 @@
                             </div>
 
                             <div class="description pl-0 pr-0 pl-md-4 pr-md-4 mb-4">
+<<<<<<< HEAD
                                 <p class="text-black sub-heading">Great workshops were organised by the society which were sponsored by the Coding Blocks. Workshop on Machine Learning and on Data Structures are the latest of them.</p>
                             </div>
                             <div class="testimonial-img mt-2">
                                 <img src="digital-marketing/img/cb_logo.png" alt="student img">
+=======
+                                <p class="text-black sub-heading">Learning is always incomplete without an expert instructor who believes that systematically designed paths can help you to master your skills & achieve your career goals.</p>
+                            </div>
+                            <div class="testimonial-img mt-2">
+                                <img src="digital-marketing/img/codingblock.png" alt="cblogo img">
+>>>>>>> b5dd24ae846f927ddec81e8023af7b7ea86e8a77
                             </div>
                             <div class="testimonial-tittle mt-3 mb-3">
                                 <h3 class="mb-0">Coding Blocks</h3>
@@ -554,6 +780,7 @@
                             </div>
 
                             <div class="description pl-0 pr-0 pl-md-4 pr-md-4 mb-4">
+<<<<<<< HEAD
                                 <p class="text-black sub-heading">Microsoft Azure, commonly referred to as Azure, is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.</p>
                             </div>
                             <div class="testimonial-img mt-2">
@@ -561,6 +788,15 @@
                             </div>
                             <div class="testimonial-tittle mt-3 mb-3">
                                 <h3 class="mb-0">Azure</h3>
+=======
+                                <p class="text-black sub-heading">Learning is always incomplete without an expert instructor who believes that systematically designed paths can help you to master your skills & achieve your career goals.</p>
+                            </div>
+                            <div class="testimonial-img mt-2">
+                                <img src="digital-marketing/img/codingblock.png" alt="cblogo img">
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h3 class="mb-0">Coding Blocks</h3>
+>>>>>>> b5dd24ae846f927ddec81e8023af7b7ea86e8a77
                             </div>
                         </div>
 
@@ -570,6 +806,7 @@
                             </div>
 
                             <div class="description pl-0 pr-0 pl-md-4 pr-md-4 mb-4">
+<<<<<<< HEAD
                                 <p class="text-black sub-heading">Major League Hacking, (MLH) is the official student hackathon league. Each year, they power over 200 weekend-long invention competitions that inspire innovation, cultivate communities and teach computer science skills to more than 65,000 students around the world.</p>
                             </div>
                             <div class="testimonial-img mt-2">
@@ -641,6 +878,15 @@
                             </div>
                             <div class="testimonial-tittle mt-3 mb-3">
                                 <h3 class="mb-0">Townscript</h3>
+=======
+                                <p class="text-black sub-heading">Learning is always incomplete without an expert instructor who believes that systematically designed paths can help you to master your skills & achieve your career goals.</p>
+                            </div>
+                            <div class="testimonial-img mt-2">
+                                <img src="digital-marketing/img/codingblock.png" alt="cblogo img">
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h3 class="mb-0">Coding Blocks</h3>
+>>>>>>> b5dd24ae846f927ddec81e8023af7b7ea86e8a77
                             </div>
                         </div>
                     </div>
@@ -651,6 +897,7 @@
                 <div class="col-12 col-md-9">
                     <div class="sponser-tags owl-carousel owl-theme">
                         <div class="item brand-img d-flex justify-content-center">
+<<<<<<< HEAD
                             <img src="digital-marketing/img/cb_logo.png" alt="brand1">
                         </div>
                         <div class="item brand-img d-flex justify-content-center">
@@ -661,6 +908,15 @@
                         </div>
                         <div class="item brand-img d-flex justify-content-center">
                             <img src="digital-marketing/img/github.png" alt="brand4">
+=======
+                            <img src="digital-marketing/img/codingblock.png" alt="brand1">
+                        </div>
+                        <div class="item brand-img d-flex justify-content-center">
+                            <img src="digital-marketing/img/codingblock.png" alt="brand2">
+                        </div>
+                        <div class="item brand-img d-flex justify-content-center">
+                            <img src="digital-marketing/img/codingblock.png" alt="brand3">
+>>>>>>> b5dd24ae846f927ddec81e8023af7b7ea86e8a77
                         </div>
 
                         <div class="item brand-img d-flex justify-content-center">
@@ -672,7 +928,11 @@
                         </div>
 
                         <div class="item brand-img d-flex justify-content-center">
+<<<<<<< HEAD
                             <img src="digital-marketing/img/townscript.png" alt="brand3">
+=======
+                            <img src="digital-marketing/img/codingblock.png" alt="brand4">
+>>>>>>> b5dd24ae846f927ddec81e8023af7b7ea86e8a77
                         </div>
                     </div>
                 </div>
@@ -688,14 +948,13 @@
     </svg>
 
     </section>
-
     <section id="blog" class="blog">
         <div class="container">
             <div class="row m-0">
                 <div class="col-lg-6 offset-lg-4 col-md-12 offset-md-0 col-sm-12 text-left p-0">
                     <div class="home-text text-black">
-                        <h1 class="main-heading mt-3 mb-4">Latest Web <br>Design Blog and News</h1>
-                        <p class="sub-heading mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut aliq. Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <h1 class="main-heading mt-3 mb-4">Upcoming News <br>For Events & Workshops</h1>
+                        <p class="sub-heading mb-3">Catch us here for latest news about our upcoming events and workshops.</p>
                     </div>
                 </div>
             </div>
@@ -711,21 +970,21 @@
 
                             <div class="blog-text text-center text-md-left">
                                 <div class="date mb-2">
-                                    <p class="text-red">May27, 2020</p>
+                                    <p class="text-red">16 september 2020</p>
                                 </div>
                                 <div class="info-blog">
                                     <a href="digital-marketing/standalone.html">
-                                        <h4>Web design is fun</h4>
+                                        <h4>Graphic Designing is fun</h4>
                                     </a>
                                 </div>
                                 <div class="blog-description mb-3">
-                                    <p class="sub-heading">Lorem ipsum dolor sit amet, consadipi. Ut enim adipiscing elit, sed do tempor.</p>
+                                    <p class="sub-heading">All graphic designers at LEAD are welcome to designing workshop.</p>
                                 </div>
                                 <div class="writer d-flex">
                                     <div class="writer-img">
-                                        <img src="digital-marketing/img/blog1-writer.jpg" alt="img">
+                                        <img src="digital-marketing/img/gaurish_garg.png" alt="img">
                                     </div>
-                                    <p class="writer-name font-italic ml-3">David Villas</p>
+                                    <p class="writer-name font-italic ml-3">Gaurish Garg</p>
                                 </div>
                             </div>
                         </div>
@@ -738,21 +997,21 @@
 
                             <div class="blog-text text-center text-md-left">
                                 <div class="date mb-2">
-                                    <p class="text-red">June14, 2020</p>
+                                    <p class="text-red">September 20, 2020</p>
                                 </div>
                                 <div class="info-blog">
                                     <a href="digital-marketing/standalone.html">
-                                        <h4>Future of websites</h4>
+                                        <h4>Society Fair</h4>
                                     </a>
                                 </div>
                                 <div class="blog-description mb-3">
-                                    <p class="sub-heading">Lorem ipsum dolor sit amet, consadipi. Ut enim adipiscing elit, sed do tempor.</p>
+                                    <p class="sub-heading">Get to know what LEAD is, catch us at society fair</p>
                                 </div>
                                 <div class="writer d-flex">
                                     <div class="writer-img">
-                                        <img src="digital-marketing/img/blog2-writer.jpg" alt="img">
+                                        <img src="digital-marketing/img/jayati_gumber.png"alt="img">
                                     </div>
-                                    <p class="writer-name font-italic ml-3">Lisa Jhonson</p>
+                                    <p class="writer-name font-italic ml-3">Jayati Gumber</p>
                                 </div>
                             </div>
                         </div>
@@ -814,15 +1073,16 @@
                     <div class="address-part ml-3">
                         <div class="address d-flex mb-4">
                             <i class="fas fa-map-marker-alt address-icon mr-3"></i>
-                            <p>123 Pak Avenue, New York,<br> United States</p>
+                            <p>TIET, Patiala-147004<br> Punjab</p>
                         </div>
                         <div class="address d-flex mb-4">
                             <i class="fas fa-phone-volume address-icon mr-3"></i>
-                            <p>+1 631 12345678<span class="ml-3">  +1 631 12345678 </span> </p>
+                            <p><br>Jayati <span class="ml-3">jayatigumber@gmail.com</span><br>Utkarsh<span class="ml-3">utkarsh1148@gmail.com</span>
+                            </p>
                         </div>
                         <div class="address d-flex mr-3">
                             <i class="fas fa-paper-plane address-icon mr-3"></i>
-                            <p>email@website.com</p>
+                            <p>lead_sc@thapar.edu</p>
                         </div>
                     </div>
 
@@ -841,12 +1101,10 @@
             <div class="row footer">
                 <div class="col-12 col-md-5">
                     <ul class="footer_ul mb-50">
-                        <li class="footer_list"><i class="lab la-facebook-f fb"></i></li>
-                        <li class="footer_list"><i class="lab la-twitter twt"></i></li>
-                        <li class="footer_list"><i class="lab la-google-plus gogle"></i></li>
-                        <li class="footer_list"><i class="lab la-linkedin-in link"></i></li>
-                        <li class="footer_list"><i class="lab la-instagram inst"></i></li>
-                        <li class="footer_list"><i class="las la-envelope gmail"></i></li>
+                        <li class="footer_list"><a href="https://www.facebook.com/leadthapar"><i class="lab la-facebook-f fb"></i></li>
+                        <li class="footer_list"><a href="https://www.linkedin.com/in/lead-tiet"><i class="lab la-linkedin-in link"></i></li>
+                        <li class="footer_list"><a href="https://www.instagram.com/lead_tiet/"><i class="lab la-instagram inst"></i></li>
+                        <li class="footer_list"><a href="https://www.google.com/search?q=lead_sc@thapar.edu"><i class="las la-envelope gmail"></i></li>
                     </ul>
                     <p class="info footer_text ml-3"><i class="far fa-copyright"></i>2020 LEAD SOCIETY TIET</p>
 

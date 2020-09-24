@@ -726,6 +726,7 @@ svg.left-square {
     height: 177%;
     top: -117px;
     bottom: 0;
+    z-index: -9999;
 }
 
 /*svg.yellow-square {*/
@@ -751,6 +752,7 @@ svg.yellow-square {
     height: 335%;
     top: -340px;
     bottom: 0;
+    z-index: 0;
 }
 
 svg.right-square {
@@ -759,6 +761,7 @@ svg.right-square {
     height: 150%;
     top: -83px;
     bottom: 0;
+    z-index: -9999;
 }
 
 .feature {
@@ -797,22 +800,23 @@ svg.right-square {
 .feature-icon {
     font-size: 120px;
     -webkit-transform: translateY(-30%);
-    color: #202020;
+    color: #0cc9bf;
     -webkit-transition: 0.5s ease;
     -o-transition: 0.5s ease;
     transition: 0.5s ease;
 }
 
 .feature-icon.center {
-    color: #fcd22a;
+    color: #3bdd13;
 }
 
 .card-body .card-text {
-    font-size: 24px;
+    font-size: 23px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    letter-spacing: -0.5px;
-    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.0001px;
+    line-height: 1.1;
+    /* text-shadow: rgba(145, 145, 145, 0.55) 1px -1px 3px; */
 }
 
 .card .card-body {
@@ -874,15 +878,18 @@ svg.right-square {
 
 .stats-text {
     width: 585px;
+ 
 }
 
 .stats-text .main-heading {
     font-size: 40px;
+   
 }
 
 .stats-text .home-text .sub-heading {
-    font-size: 20px;
-    color: rgb(105, 105, 105);
+    font-size: 24px;
+    color: rgb(39, 4, 122);
+    font-weight: bold;
 }
 
 .stats-box {
@@ -1048,14 +1055,16 @@ svg.right-square.team {
 }
 
 .design .stats-text .home-text .sub-heading {
-    font-size: 16px;
-    color: rgb(116, 123, 134);
+    font-size: 18px;
+    color: rgb(141, 10, 134);
     line-height: 1.5;
+    
+    
 }
 
 .design .stats-text .home-text h1.sub-heading {
-    font-size: 20px;
-    color: rgba(24, 33, 46, 0.702);
+    font-size: 22px;
+    color: rgba(66, 112, 13, 0.702);
 }
 
 /***************GALLERY SECTION START***********/
@@ -1407,10 +1416,10 @@ ul.contact-list a:hover {
 }
 
 .address p {
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    color: rgba(37, 37, 37, 0.702);
-    font-weight: 400;
+    color: rgba(163, 1, 50, 0.702);
+    font-weight: bold;
 }
 
 svg.contact-square {
@@ -1963,6 +1972,7 @@ span {
         right: 0;
         height: 558%;
         top: -876px;
+        z-index: -9999;
     }
     svg.left-square {
         position: absolute;
