@@ -1508,9 +1508,9 @@ li.footer_list .gmail:hover {
 /*******************STANDALONE PAGE****************/
 
 .header-img {
-    background: url(../img/banner.jpg);
+    background: url(../img/leadbackground_img.png);
     background-attachment: fixed;
-    height: 400px;
+    height: 600px;
     position: relative;
     background-size: cover;
     background-position: bottom;
