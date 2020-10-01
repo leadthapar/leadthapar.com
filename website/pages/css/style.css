@@ -1510,7 +1510,7 @@ li.footer_list .gmail:hover {
 .header-img {
     background: url(../img/leadbackground_img.png);
     background-attachment: fixed;
-    height: 800px;
+    height: 600px;
     position: relative;
     background-size: cover;
     background-position: bottom;
