@@ -2,6 +2,7 @@
                 About
    =================================== */
 
+
 /*
     Theme Name: Product
     Theme URI:
@@ -12,7 +13,9 @@
 
  */
 
+
 /***************Table of Content**************/
+
 
 /*  - Fonts
     - General Classes
@@ -31,10 +34,12 @@
     - Standlone Page
     - Media Queries   */
 
+
 /*********IMPORT FONTS**********/
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 /**********GENERAL CLASSES***********/
 
 body,
@@ -130,6 +135,7 @@ a {
     display: none;
 }
 
+
 /************SCROLLBAR************/
 
 ::-webkit-scrollbar-track {
@@ -146,6 +152,7 @@ a {
     width: 10px;
     background-color: #F5F5F5;
 }
+
 
 /***************PRELOADER*************/
 
@@ -251,6 +258,7 @@ a {
     }
 }
 
+
 /***********NAVBAR FOR LARGE SCREEN*********/
 
 .navbar-nav .nav-link {
@@ -288,6 +296,7 @@ a {
 .small-screen {
     display: none;
 }
+
 
 /****************TRANSPARENT NAVBAR***************/
 
@@ -415,6 +424,7 @@ a {
     color: #ffc107;
 }
 
+
 /* ===================================
      Menu
 ====================================== */
@@ -464,6 +474,7 @@ a {
     margin: 0 0 2.5rem 0;
 }
 
+
 /*Side overlay*/
 
 #close_side_menu {
@@ -480,6 +491,7 @@ a {
     z-index: 1031;
     opacity: 0.4;
 }
+
 
 /*side clode btn*/
 
@@ -520,6 +532,7 @@ a {
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
+
 
 /*side open btn*/
 
@@ -700,6 +713,7 @@ a {
     color: #202020;
 }
 
+
 /***************HOME SECTION START************/
 
 .home {
@@ -729,19 +743,27 @@ svg.left-square {
     z-index: -9999;
 }
 
+
 /*svg.yellow-square {*/
+
 
 /*    position: absolute;*/
 
+
 /*    !*left: 0;*!*/
+
 
 /*    right: 0;*/
 
+
 /*    height: 200%;*/
+
 
 /*    top: -83px;*/
 
+
 /*    bottom: 0;*/
+
 
 /*}*/
 
@@ -869,6 +891,7 @@ svg.right-square {
     font-weight: 300;
 }
 
+
 /************STATS SECTION START***********/
 
 .stats {
@@ -878,12 +901,10 @@ svg.right-square {
 
 .stats-text {
     width: 585px;
- 
 }
 
 .stats-text .main-heading {
     font-size: 40px;
-   
 }
 
 .stats-text .home-text .sub-heading {
@@ -942,6 +963,7 @@ svg.right-square {
 .plant-img {
     position: relative;
 }
+
 
 /************TEAM SECTION START***********/
 
@@ -1047,6 +1069,7 @@ svg.right-square.team {
     color: #fff;
 }
 
+
 /***************DESIGN SECTION START***********/
 
 .design {
@@ -1058,14 +1081,13 @@ svg.right-square.team {
     font-size: 18px;
     color: rgb(141, 10, 134);
     line-height: 1.5;
-    
-    
 }
 
 .design .stats-text .home-text h1.sub-heading {
     font-size: 22px;
     color: rgba(66, 112, 13, 0.702);
 }
+
 
 /***************GALLERY SECTION START***********/
 
@@ -1199,6 +1221,7 @@ svg.right-square.team {
     margin: 0;
 }
 
+
 /************TESTIMONIAL SECTION START***************/
 
 .testimonial {
@@ -1246,6 +1269,7 @@ svg.right-square.team {
     font-weight: 400;
 }
 
+
 /***********brand  css*********/
 
 .sponser-tags {
@@ -1257,6 +1281,7 @@ svg.right-square.team {
     width: 65%;
     height: auto;
 }
+
 
 /************BLOG SECTION START************/
 
@@ -1329,6 +1354,7 @@ svg.blog {
     top: -25px;
     bottom: 0;
 }
+
 
 /************CONTACT SECTION START**********/
 
@@ -1438,6 +1464,7 @@ svg.contact-square {
     left: 6%;
 }
 
+
 /****************FOOTER SECTION*******************/
 
 ul.footer_ul {
@@ -1504,6 +1531,7 @@ li.footer_list .gmail:hover {
 .footer {
     padding-top: 110px !important;
 }
+
 
 /*******************STANDALONE PAGE****************/
 
@@ -1675,6 +1703,7 @@ li.footer_list .gmail:hover {
     margin-top: 70px;
 }
 
+
 /*..............SEARCH...........*/
 
 .pt-lg-10 {
@@ -1746,6 +1775,7 @@ li.footer_list .gmail:hover {
     display: flex;
 }
 
+
 /*............TOPIC..............*/
 
 .topic_outerbox {
@@ -1811,6 +1841,7 @@ li.footer_list .gmail:hover {
     height: 100%;
     width: 100%;
 }
+
 
 /*.............POPULAR POST..............*/
 
@@ -1891,6 +1922,7 @@ li.footer_list .gmail:hover {
     color: #ffc107;
 }
 
+
 /*..............TAGS.................*/
 
 .outer_tag {
@@ -1945,6 +1977,7 @@ span {
     height: 100%;
     width: 100%;
 }
+
 
 /****************MEDIA QUERIES***************/
 
@@ -2355,6 +2388,7 @@ span {
         font-size: 13px;
     }
 }
+
 
 /**************STANDALONE PAGE MEDIA QUERIES***********/
 
