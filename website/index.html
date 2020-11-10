@@ -951,33 +951,39 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-7">
-                    <form class="contact-form" id="contact-form-data" action="mailto:lead_sc@thapar.edu" method="POST" enctype="text/plain">
+                    <form class="contact-form" id="contact-form-data" action="https://mail.google.com/mail/u/0/" enctype="text/plain">
+                        <input  type="hidden" id="compose" name="view" value="cm">
+                        <input  type="hidden" id="compose" name="fs" value="1">
+                        <input  type="hidden" id="compose" name="tf" value="1">
+                        <input  type="hidden" id="compose" name="to" value="lead_sc@thapar.edu">
                         <div class="row mt-5">
                             <div class="col-sm-12" id="result"></div>
                         </div>
                         <div class="row">
                             <div class="col-12 col-md-5">
                                 <div class="form-group">
-                                    <input class="form-control" type="text"   required="true" placeholder="Your Name" required id="candidate_name" name="userName">
+                                    <input class="form-control" type="text"   required="true" placeholder="Your Name" required id="candidate_name">
                                 </div>
 
                                 <div class="form-group">
-                                    <input class="form-control" type="email"  required="true" placeholder="Email Address" required id="user_email" name="userEmail">
+                                    <input class="form-control" type="email"  required="true" placeholder="Email Address" required id="user_email">
                                 </div>
 
                                 <div class="form-group ">
-                                    <input class="form-control" type="text"  required="true" placeholder="Subject" id="user_subject" name="userSubject">
+                                    <input class="form-control" type="text"  required="true" placeholder="Subject" id="su" name="su">
                                 </div>
+                              
+
                             </div>
 
                             <div class="col-12 col-md-7">
                                 <div class="form-group ">
-                                    <textarea class="form-control" placeholder="Your Message"  required="true" required rows="7" id="user_message" name="userMessage"></textarea>
+                                    <textarea class="form-control" placeholder="Your Message"  required="true" required rows="7" id="body" name="body"></textarea>
                                 </div>
                             </div>
                         </div>
 
-                        <button type="submitbutton" class="btn btn-slider pink-btn rounded-pill w-100" id="submit_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> <b>Send Message</b></button>
+                        <button type="submit" vlaue="submit" class="btn btn-slider pink-btn rounded-pill w-100" id="submit_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> <b>Send Message</b></button>
                     </form>
                 </div>
 
